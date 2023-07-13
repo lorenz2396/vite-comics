@@ -2,10 +2,8 @@
 @use "partials/variables" as *;
 @use "partials/mixins" as *;
 
-main {
-    color: $main-color;
+header {
+    background-color: $header-color;
 }
 
-p {
-    @include main-coloring;
-}
+

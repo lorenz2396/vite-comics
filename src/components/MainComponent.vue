@@ -14,14 +14,12 @@ export default {
 
 <template>
     <main>
-        MAIN
+        
     </main>
 </template>
 
 <style lang="scss" scoped>
 @use "../assets/scss/partials/variables.scss" as *;
 
-main {
-    padding: $main-padding;
-}
+
 </style>
