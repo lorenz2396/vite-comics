@@ -1,9 +1,7 @@
-@use "partials/reset" as *;
-@use "partials/variables" as *;
-@use "partials/mixins" as *;
+@use './partials/reset' as *;
+@use './partials/variables' as *;
 
-header {
-    background-color: $header-color;
+.my-container{
+    width: 1000px;
+    margin: 0 auto;
 }
-
-

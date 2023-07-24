@@ -87,14 +87,30 @@ export default {
 </script>
 
 <template>
+     
+    <section>
+
+        <div class="hero">
+
+            <img src="../assets/img/jumbotron.jpg" alt="">
+            
+        </div>
+        
+    </section>
     
     <section class="comics">
           
-        <div class="my-container">    
+        <div class="my-container">
+       
+            <div class="current-series">
+                current series
+            </div>
+    
             
             <div class="comic-cards">
 
-                <CardComponent v-for="singleComic in comics" :key="i"
+                <CardCmpnnt v-for="singleComic in comics"
+                    :key=i
                     :img="singleComic.thumb"
                     :title="singleComic.series"        
 
@@ -111,6 +127,7 @@ export default {
 <style lang="scss" scoped>
 
 @use '../assets/scss/partials/variables'as *;
+
 .hero{
     width: 100%;
 
